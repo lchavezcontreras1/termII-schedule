@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Schedule</title>
+    <link href="styles.css" rel="stylesheet" type="text/css" media="screen">
+</head>
+<body>
+<div id="wrapper">
+    <fieldset>
+        <h1>My Schedule</h1>
+        <form id="schedule">
+            <p>Choose a day to view schedule</p>
+            <p><input type="radio" name="weekday" id="monday" value="Monday">
+                <label for="monday">Monday</label></p>
+            <p><input type="radio" name="weekday" id="tuesday" value="Tuesday">
+                <label for="tuesday">Tuesday</label></p>
+            <p><input type="radio" name="weekday" id="wednesday" value="Wednesday">
+                <label for="wednesday">Wednesday</label></p>
+            <p><input type="radio" name="weekday" id="thursday" value="Thursday">
+                <label for="thursday">Thursday</label></p>
+            <p><input type="radio" name="weekday" id="friday" value="Friday">
+                <label for="friday">Friday</label></p>
+            <p><input type="radio" name="weekday" id="saturday" value="Saturday">
+                <label for="saturday">Saturday</label></p>
+            <p><input type="radio" name="weekday" id="sunday" value="Sunday">
+                <label for="sunday">Sunday</label></p>
+        </form>
+        <h2>Event & Time</h2>
+        <div id="event-container">
+            <div id="event-item1">
+                <p>Monday</p>
+            </div>
+            <div id="event-item2">
+                <p>Tuesday</p>
+            </div>
+            <div id="event-item3">
+                <p>Wednesday</p>
+            </div>
+            <div id="event-item4">
+                <p>Thursday</p>
+            </div>
+            <div id="event-item5">
+                <p>Friday</p>
+            </div>
+            <div id="event-item6">
+                <p>Saturday</p>
+            </div>
+            <div id="event-item7">
+                <p>Sunday</p>
+            </div>
+
+        </div> <!--closes event-container-->
+    </fieldset>
+</div><!--closes wrapper-->
+<!--JS-->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="script.js"></script>
+</body>
+</html>
